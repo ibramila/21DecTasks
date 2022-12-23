@@ -193,9 +193,7 @@ function App() {
     setAge(e.target.value);
     console.log(e.target.value)
   }
-  const addUser = () => {
 
-  }
   function submitFunc(e) {
 
     e.preventDefault();
@@ -268,7 +266,7 @@ function App() {
 
       {/*========================== Table ========================== */}
       <Table columns={columns} dataSource={data} />
-      
+
       {/* =========== add inputs ================ */}
 
       <Button onClick={handleOpen}>Add Inputs...</Button>
